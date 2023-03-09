@@ -1,0 +1,78 @@
+body{
+    font-family: sans-serif;
+    background-color:black;
+    color:aliceblue}
+    
+
+h1{ 
+    text-align: center;
+    font-size: 250%;
+    color:rgb(245, 75, 66);
+}
+
+
+ol{
+    list-style-image: url("/Image/key.png");
+    
+}
+
+li.reference{
+    display: inline;
+    margin-right: 10px;
+}
+
+img.align-center{
+    display: block;
+    margin: 0px auto;
+}
+
+img.large{
+    width: 1500px;
+    height: 400px;
+}
+
+a.main{
+    text-decoration:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+    color: cornflowerblue;
+}
+p.present{
+    text-decoration: underline;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+
+div.cytat{
+    text-align: center;
+    height: 75px;
+    width: 550px;
+    background-color:darkblue;
+}
+
+div.main{
+    
+    height: 120px;
+    width: 300;
+    background-image: url("/Image/tło-main.jpg");
+}
+
+
+form.registration{
+    text-align: right;
+}
+
+table.example{
+    width: 500px;
+    border-style:double;
+    border-color: aliceblue;
+
+}
+
+th, td{
+    padding: 5px 10px 10px 10px ;
+    text-align: center;
+    border: 3px solid; 
+}
+
