@@ -12,7 +12,7 @@ h1{
 
 
 ol{
-    list-style-image: url("/Image/key.png");
+    list-style-image: url("/MojaStrona_HTML/Image/key.png");
     
 }
 
@@ -55,7 +55,7 @@ div.main{
     
     height: 120px;
     width: 300;
-    background-image: url("/Image/tło-main.jpg");
+    background-image: url("/MojaStrona_HTML/Image/tło-main.jpg");
 }
 
 
