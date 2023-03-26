@@ -1,12 +1,16 @@
 body{
     font-family: sans-serif;
-    background-color:black;
+    background-image: url("/MojaStrona_HTML/Image/wavey-fingerprint.png");
+    width: auto;
+    margin: 0 auto;
+         
     color:aliceblue}
     
 
 h1{ 
     text-align: center;
-    font-size: 250%;
+    text-shadow: 2px 2px 7px #FF0000;    
+    font-size: 350%;
     color:rgb(245, 75, 66);
 }
 
@@ -18,7 +22,7 @@ ol{
 
 li.reference{
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 img.align-center{
@@ -27,14 +31,20 @@ img.align-center{
 }
 
 img.large{
-    width: 1500px;
-    height: 400px;
+    width: 2100px;
+    height: 600px;
 }
 
 a.main{
     text-decoration:none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 120%;
+
+    font-size: 200%;
+    color: cornflowerblue;
+}
+
+a.contact{
+    text-decoration: none;
     color: cornflowerblue;
 }
 p.present{
@@ -52,20 +62,21 @@ div.cytat{
 }
 
 div.main{
-    
-    height: 120px;
-    width: 300;
-    background-image: url("/MojaStrona_HTML/Image/tło-main.jpg");
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: rgb(30, 41, 55);
 }
 
 
 form.registration{
     text-align: right;
+    
 }
 
 table.example{
     width: 500px;
-    border-style:double;
+    border-style: double;
     border-color: aliceblue;
 
 }
@@ -74,5 +85,32 @@ th, td{
     padding: 5px 10px 10px 10px ;
     text-align: center;
     border: 3px solid; 
+}
+
+addres{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+label.register{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input.password1{
+   border-width: 10px;
+    font-size: 22px;
+   background-color:deepskyblue;
+}
+
+input.submit{
+    font-size: 25px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 5px cornflowerblue,
+    0 0 25px cornflowerblue,
+    0 0 50px cornflowerblue,
+    0 0 100px cornflowerblue;
 }
 
