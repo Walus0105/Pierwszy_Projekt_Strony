@@ -1,116 +1,352 @@
-body{
+ body{
     font-family: sans-serif;
-    background-image: url("/MojaStrona_HTML/Image/wavey-fingerprint.png");
+    background-image: url("../Image/wavey-fingerprint.png");
     width: auto;
     margin: 0 auto;
-         
-    color:aliceblue}
-    
+    color: aliceblue
+}
 
-h1{ 
+
+
+.registerBody{
+    font-family: sans-serif;
+    background-image: url("../Image/pexels-alexander-ant-4585185.jpg");
+    width: auto;
+    margin: 0 auto; 
+    padding: 0;
+    color: rgb(44, 132, 204);
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.margin{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5vw; 
+    margin-right: 8vw;
+}
+
+nav{
+    text-align: right;
+    position: relative;
+    top: 20px;
+}
+
+h1 {
     text-align: center;
-    text-shadow: 2px 2px 7px #FF0000;    
-    font-size: 350%;
-    color:rgb(245, 75, 66);
+    position: relative;
+    top: 10px;
+    text-shadow: 2px 2px 7px #FF0000;
+    font-size: 450%;
+    color: rgb(245, 75, 66);
 }
 
 
-ol{
-    list-style-image: url("/MojaStrona_HTML/Image/key.png");
-    
+ .table {
+    list-style-image: url("../Image/key.png");
+   
+
 }
 
-li.reference{
+  
+
+.login{
+    margin-right: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    font-weight: 700;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+.reference {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
-img.align-center{
+li.loginek {
+    font-size: 13px;
+    display: inline;
+    margin-right: 25px;
+}
+
+
+
+img.align-center {
     display: block;
     margin: 0px auto;
 }
 
-img.large{
-    width: 2100px;
-    height: 600px;
+img.large {
+    width: 2400px;
+    height: 1000px;
 }
 
-a.main{
-    text-decoration:none;
+a.main {
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-    font-size: 200%;
+    font-weight: 700;
+    font-size: 250%;
+    transition: .3s;
     color: cornflowerblue;
 }
 
-a.contact{
+a.main:hover{
+    color: white;
+}
+
+
+a.contact {
     text-decoration: none;
     color: cornflowerblue;
 }
-p.present{
+
+a.contact:hover{
+    color: white;
+}
+
+p.present {
     text-decoration: underline;
     color: darkgoldenrod;
     text-align: center;
+    font-size: 35px;
 }
 
 
-div.cytat{
+div.cytat {
     text-align: center;
     height: 75px;
     width: 550px;
-    background-color:darkblue;
+    background-color: darkblue;
 }
 
-div.main{
-    margin: 0px;
-    padding: 1px;
+div.info {
+    background-color: black;
+    height: 555px;
+    width: 1290px;
+    padding: 90px;
+    border: 5px white solid;
+    font-size: 30px;
+}
+
+div.main {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: rgb(30, 41, 55);
+    -webkit-box-shadow: inset -1px 5px 18px 10px rgba(49, 94, 111, 0.8);
+    -moz-box-shadow: inset -1px 5px 18px 10px rgba(49, 94, 111, 0.8);
+    box-shadow: inset -1px 5px 18px 10px rgba(49, 94, 111, 0.8);
+}
+
+
+
+    .registration {
+    display: inline;
+    position: relative;
+    
+}
+
+table.example {
+    width: 500px;
+    border-style: double;
+    border-color: aliceblue;
+    text-align: center;
+
+}
+
+th,
+td {
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    border: 3px solid;
+}
+  
+.submit {
+    display: inline-block;
+	padding: 10px 20px;
+	background-color: cornflowerblue;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px cornflowerblue,
+        0 0 20px cornflowerblue,
+        0 0 40px cornflowerblue,
+        0 0 60px cornflowerblue;
+}
+
+input:hover {
+    background-color: deepskyblue;
+}
+
+.respo {
+    max-width: 100%;
+    height: auto;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 15px;
     box-sizing: border-box;
     background-color: rgb(30, 41, 55);
 }
 
-
-form.registration{
-    text-align: right;
+address{
+    text-decoration: none;
+    font-size: 30px;
     
 }
 
-table.example{
-    width: 500px;
-    border-style: double;
-    border-color: aliceblue;
-
+.links {
+    margin-right: 40px ;
 }
 
-th, td{
-    padding: 5px 10px 10px 10px ;
+.socials {
+    position: relative;
+    top: 25px;
+}
+
+.newss{
+text-align:left;
+font-size: 40px;
+font-weight: 500;
+position: relative;
+top: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.subText{
+    font-size: 40px;
+}
+
+.subButtom{
+    display: inline-block;
+	padding: 10px 20px;
+	background-color: rgb(72, 77, 88);
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.subButtom:hover{
+    background-color: gray;
+}
+
+.container {
+    width: auto;
+    column-count: 2;
+    column-gap: 10px;
+    position: relative;
+    right: 150px;
+    
+  }
+
+ .registerBox{
+    position: relative;
+    width: 850px;
+    height: 1050px;
+    border: 15px solid rgba(63, 204, 255, 0.875);
+    border-radius: 40px;
+    display:flex;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .registerBox legend{
+    color: whitesmoke;
     text-align: center;
-    border: 3px solid; 
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .registerBox .dataBox{
+    position: relative;
+    width: 600px;
+    border-bottom: 7px solid whitesmoke;
 }
 
-addres{
-    text-decoration: none;
-    font-size: 25px;
-}
 
-label.register{
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-input.password1{
-   border-width: 10px;
-    font-size: 22px;
-   background-color:deepskyblue;
-}
-
-input.submit{
-    font-size: 25px;
+ .registerBox .dataBox  input{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
     border: none;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: cornflowerblue;
-    box-shadow: 0 0 5px cornflowerblue,
-    0 0 25px cornflowerblue,
-    0 0 50px cornflowerblue,
-    0 0 100px cornflowerblue;
-}
+    outline: none;
+    color: antiquewhite;
+    padding: 0 15px 0 5px ;
+    font-size: 30px;
+ }
 
+ .registerButton {
+    font-family: arial;
+    font-weight:bolder;
+    color: #14396A;
+    font-size: 20px;
+    text-shadow: 0px 0px 0px #7CACDE;
+    box-shadow: 0px 0px 1px #BEE2F9;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: 3px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+  }
+  .registerButton:hover {
+    color: #14396A;
+    background: #1BC3CF;
+  }
+ 
+  .regContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #1BC3CF;
+  }
+  
+  .aboutImg {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline;
+  }
+
+  hr{
+    color: gray;
+
+  }
+
+
+  .shadow{
+    background-color: rgba(20, 12, 12, 0.69);
+    
+  }
+
+  input::placeholder{
+    color: aliceblue;
+    font-family:'Arial';
+  }
+
+
+ .error_msg{
+    margin: 10px 0;
+    display: block;
+    background: #14396A;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+ }
+
+ 
